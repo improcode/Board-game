@@ -1,0 +1,51 @@
+body {
+    font-family: 'Righteous', cursive;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    color: #E85A4F;
+}
+.gameboard {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    background: #EAE7DC;
+}
+.field {
+    margin: 1rem;
+    padding: 1rem;
+    min-width: 3.5rem;
+    min-height: 3.5rem;
+    background: #C5C6C7;
+}
+.player-field {
+    background-color: #E85A4F;
+    color: white;
+}
+.game-icon {
+    position: relative;
+    top: 30%;
+    left: 50%;
+}
+.icon {
+    width: 2rem;
+}
+.start-button {
+    margin: 2rem;
+}
+.events-list {
+    list-style-type: none;
+}
+.warning-log {
+    display: inline;
+    background-color: yellow;
+}
+.gameover-log {
+    display: inline;
+    background-color: red;
+}
+.success-log {
+    display: inline;
+    background-color: green;
+}

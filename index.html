@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <title>Board game</title>
+    <meta name="description" content="Gra planszowa">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- VIEWPORT CSS AND FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/two-dices.png">
+</head>
+<body>
+
+
+<div class="gameboard">
+    <h1>The simplest game you've ever played</h1>
+    <div id='1' class="field">1</div>
+    <div id='2' class="field">2</div>
+    <div id='3' class="field">3</div>
+    <div id='4' class="field">4</div>
+    <div id='5' class="field">5</div>
+    <div id='6' class="field">6</div>
+    <div id='7' class="field">7</div>
+    <div id='8' class="field">8</div>
+    <div id='9' class="field">9</div>
+    <div id='10' class="field">10</div>
+    <div id='11' class="field">11</div>
+    <div id='12' class="field">12
+        <div class="game-icon"><img src="./img/game-over.png" alt="game over" class="icon"></div>
+    </div>
+    <div id='13' class="field">13</div>
+    <div id='14' class="field">14</div>
+    <div id='15' class="field">15</div>
+    <div id='16' class="field">16</div>
+    <div id='17' class="field">17</div>
+    <div id='18' class="field">18</div>
+    <div id='19' class="field">19
+        <div class="game-icon"><img src="./img/road-panel.png" alt="road works" class="icon"></div>
+    </div>
+    <div id='20' class="field">20
+        <div class="game-icon"><img src="./img/racing-flag.png" alt="finish" class="icon"></div>
+    </div>
+</div>
+
+<div class="navigation">
+    <button class="start-button">START</button>
+    <button class="dice-roll-button" disabled>ROLL THE DICE</button>
+</div>
+
+<div class="game-events">
+    <ul class="events-list">    
+    </ul>
+</div>
+
+
+<script src="game.js"></script>
+</body>
+</html>
