@@ -81,7 +81,7 @@
 
     function cameTo19() {
         setTimeout(() => { alert('ROAD WORKS - go back to square 11'); gameState[round].playerPosition = 11; renderGameboard(); }, 700);
-        renderGameLog('Oops.. go back to square 11', 'warning-log');
+        renderGameLog('Oops... Go back to square 11.', 'warning-log');
     }
 
     function cameToFinish() {
